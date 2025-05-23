@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyEzz | Tempting Food Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Baloo 2', cursive;
+      background: #fff8f0;
+      color: #333;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 1.7rem;
+      text-align: center;
+      color: #514c4c;
+      margin-bottom: 0.2rem;
+    }
+
+    p {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .vendor {
+      margin-bottom: 2rem;
+      border-radius: 16px;
+      padding: 1rem 1.5rem;
+      background: linear-gradient(135deg, #fcd5ce 0%, #f8edeb 100%);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .vendor:hover {
+      transform: scale(1.02);
+    }
+
+    summary {
+      cursor: pointer;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #ff5a5f;
+      margin-bottom: 0.3rem;
+    }
+
+    summary i {
+      font-size: 1rem;
+      color: #6c757d;
+      display: block;
+      margin-top: 0.3rem;
+    }
+
+    .menu-section h3 {
+      margin-top: 1rem;
+      color: #d34f4f;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      padding: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .menu-item img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 1rem;
+    }
+
+    .menu-item h4 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .menu-item p {
+      margin: 0.2rem 0;
+      font-size: 0.95rem;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #ff5a5f;
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu-item img {
+        margin-bottom: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>⚡ Welcome to MyEzz ⚡</h1>
+  <p><strong>Note:</strong> Full Menu Available on Request!</p>
+  <p><strong><i><u>We deliver to your doorstep, not just the main gate!</u></i></strong></p>
+  <p><strong>Tap a vendor to drool over their delicious dishes.</strong></p>
+
+  <!-- Sample Enhanced Vendor: Patel Juice Centre -->
+  <div class="vendor">
+    <details>
+      <summary>Patel Juice Centre <i>"Where every bite and sip is a celebration of taste, tradition, and twist!"</i> <strong>Shop timing 12.30 PM - 12.00 AM</strong></summary>
+
+      <div class="menu-section">
+        <h3>Milkshakes</h3>
+        <div class="menu-item">
+          <img src="images\cold-coffee.png" alt="Cold Coffee">
+          <div>
+            <h4>Cold Coffee</h4>
+            <p>Portion: 300ml</p>
+            <p class="price">₹100</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/Oreo-Milkshake.jpg" alt="Oreo Milkshake">
+          <div>
+            <h4>Oreo Milkshake</h4>
+            <p>Portion: 350ml</p>
+            <p class="price">₹120</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/kitkat_milkshake.jpg" alt="Kit Kat Milkshake">
+          <div>
+            <h4>Kit Kat Milkshake</h4>
+            <p>Portion: 350ml</p>
+            <p class="price">₹120</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/chocolate_milkshake.jpg" alt="Chocolate Milkshake">
+          <div>
+            <h4>Chocolate Milkshake</h4>
+            <p>Portion: 300ml</p>
+            <p class="price">₹100</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/hoeny+avocoda.jpeg" alt="Avocado + Honey">
+          <div>
+            <h4>Avocado + Honey</h4>
+            <p>Portion: 350ml</p>
+            <p class="price">₹180</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <h3>Falooda</h3>
+        <div class="menu-item">
+          <img src="images/royal_falooda.jpeg" alt="Royal Falooda">
+          <div>
+            <h4>Royal Falooda</h4>
+            <p>Portion: Tall Glass</p>
+            <p class="price">₹100</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/kesar_falooda.jpg" alt="Kesar Falooda">
+          <div>
+            <h4>Kesar Falooda</h4>
+            <p>Portion: Tall Glass</p>
+            <p class="price">₹100</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/special_falooda.jpg" alt="Patel Special Falooda">
+          <div>
+            <h4>Patel Special Falooda</h4>
+            <p>Portion: Tall Glass</p>
+            <p class="price">₹130</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/rabadi_falooda.jpg" alt="Rabdi Falooda">
+          <div>
+            <h4>Rabdi Falooda</h4>
+            <p>Portion: Tall Glass</p>
+            <p class="price">₹140</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/chocolate_falooda.jpg" alt="Chocolate Falooda">
+          <div>
+            <h4>Chocolate Falooda</h4>
+            <p>Portion: Tall Glass</p>
+            <p class="price">₹120</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <h3>Blossom with Vanilla Ice-Cream</h3>
+        <div class="menu-item">
+          <img src="images/strawberry-blossom.jpg" alt="Strawberry Blossom">
+          <div>
+            <h4>Strawberry Blossom</h4>
+            <p>Portion: 1 Bowl</p>
+            <p class="price">₹180</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/kitkat-blossom.jpg" alt="Kit Kat Blossom">
+          <div>
+            <h4>Kit Kat Blossom</h4>
+            <p>Portion: 1 Bowl</p>
+            <p class="price">₹150</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/chocolate-blossom.jpg" alt="Chocolate Blossom">
+          <div>
+            <h4>Chocolate Blossom</h4>
+            <p>Portion: 1 Bowl</p>
+            <p class="price">₹140</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/mango-blossom.jpg" alt="Mango Blossom">
+          <div>
+            <h4>Mango Blossom</h4>
+            <p>Portion: 1 Bowl</p>
+            <p class="price">₹200</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/sitafal-blossom.jpg" alt="Sitafal Blossom">
+          <div>
+            <h4>Sitafal Blossom</h4>
+            <p>Portion: 1 Bowl</p>
+            <p class="price">₹180</p>
+          </div>
+        </div>
+      </div>
+    </details>
+  </div>
+
+  <!-- Vendor 2: B.E Bytes -->
+  <div class="vendor">
+    <details>
+      <summary>B.E Bytes <i>"Bite-sized happiness, served hot & fresh!"</i> <strong>Shop timing 5.00 PM - 11.00 PM</strong></summary>
+      <div class="menu-section">
+        <h3>Pav Items</h3>
+        <div class="menu-item">
+          <img src="images/masala-vadapav.jpg" alt="Masala Vadapav">
+          <div>
+            <h4>Masala Vadapav (Jain)</h4>
+            <p>Portion: 1 piece</p>
+            <p class="price">₹40</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/pav-sandwhich.jpg" alt="Pav Sandwich">
+          <div>
+            <h4>Pav Sandwich</h4>
+            <p>Portion: Half / Full</p>
+            <p class="price">₹50 / ₹90</p>
+          </div>
+        </div>
+
+      <div class="menu-item">
+          <img src="images/panner-pav.jpg" alt="Pav Sandwich">
+          <div>
+            <h4>Peri peri Paneer pav(J)</h4>
+            <p class="price">₹90</p>
+          </div>
+        </div>
+
+      <div class="menu-item">
+          <img src="images/thecha-vadapav.jpg" alt="Pav Sandwich">
+          <div>
+            <h4>Thecha Vadapav(J)</h4>
+            <p class="price">₹50</p>
+          </div>
+        </div>
+
+ <div class="menu-item">
+          <img src="images/masala-khari.jpg" alt="Pav Sandwich">
+          <div>
+            <h4>Masala Khari(J)</h4>
+            <p class="price">₹100</p>
+          </div>
+        </div>
+
+      <div class="menu-section">
+        <h3>Bagels</h3>
+        <div class="menu-item">
+          <img src="images/og-bagel.jpg" alt="OG Bagel">
+          <div>
+            <h4>The OG Bagel (Jain)</h4>
+            <p>Portion: Half / Full</p>
+            <p class="price">₹120 / ₹230</p>
+          </div>
+          </div>
+
+         <div class="menu-item">
+          <img src="images/B-e-bites.jpg" alt="OG Bagel">
+          <div>
+            <h4>B.E Bytes Special Bagel(J)</h4>
+            <p>Portion: Half / Full</p>
+            <p class="price">₹120 / ₹230</p>
+          </div>
+          </div>
+
+           <div class="menu-item">
+          <img src="images/paneer-tikka.jpg" alt="OG Bagel">
+          <div>
+            <h4>Paneer Tikka Bagel(J)</h4>
+            <p>Portion: Half / Full</p>
+            <p class="price">₹120 / ₹230</p>
+          </div>
+          </div>
+
+           <div class="menu-item">
+          <img src="images/peri-bagel.jpg" alt="OG Bagel">
+          <div>
+            <h4>Peri Peri Bagel(J)</h4>
+            <p>Portion: Half / Full</p>
+            <p class="price">₹100 / ₹190</p>
+          </div>
+          </div>
+
+           <div class="menu-item">
+          <img src="images/chocolate-bagel.jpg" alt="OG Bagel">
+          <div>
+            <h4>Chocolate Bagel</h4>
+            <p>Portion: Half / Full</p>
+            <p class="price">₹100 / ₹190</p>
+          </div>
+      </div>
+
+     <div class="menu-section">
+        <h3>Bites</h3>
+        <div class="menu-item">
+          <img src="images/Classic-Dough-Balls.jpg" alt="OG Bagel">
+          <div>
+            <h4>Classic Dough Balls(J)</h4>
+            <p class="price">₹100</p>
+          </div>
+          </div>
+
+         <div class="menu-item">
+          <img src="images/Peri-peri-Dough-Balls.jpg" alt="OG Bagel">
+          <div>
+            <h4>Peri peri Dough Balls(J)</h4>
+            <p class="price">₹100</p>
+          </div>
+          </div>
+
+           <div class="menu-item">
+          <img src="images/Nutella-Dough-Balls.jpg" alt="OG Bagel">
+          <div>
+            <h4>Nutella Dough Balls</h4>
+            <p class="price">₹100</p>
+          </div>
+          </div>
+
+           <div class="menu-item">
+          <img src="images/Churro-Dough-Balls.jpg" alt="OG Bagel">
+          <div>
+            <h4>Churro Dough Balls</h4>
+            <p class="price">₹100</p>
+          </div>
+        </div>
+
+    </details>
+  </div>
+
+  <!-- Vendor 3: Ramanandi - Bajra Pizza -->
+  <div class="vendor">
+    <details>
+      <summary>Ramanandi - Bajra Pizza <i>"Tradition meets innovation – guilt-free pizza joy!"</i> <strong>Shop timing 5.30 PM - 11.30 PM</strong></summary>
+      <div class="menu-section">
+        <h3>Bhakri Pizza (Wheat)</h3>
+        <div class="menu-item">
+          <img src="images/veg-bhakri.jpg" alt="Vegetable Bhakri Pizza">
+          <div>
+            <h4>Vegetable Bhakri Pizza</h4>
+            <p>Portion: Regular / Jain / WC</p>
+            <p class="price">₹170 / ₹170 / ₹140</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/margarita-bhakri.jpg" alt="Margherita Bhakri Pizza">
+          <div>
+            <h4>Margherita Bhakri Pizza</h4>
+            <p>Portion: Regular / Jain</p>
+            <p class="price">₹190 / ₹190</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/cheese-bhakri.jpg" alt="Vegetable Bhakri Pizza">
+          <div>
+            <h4> Only Cheese Bhakri Pizza</h4>
+            <p>Portion: Regular / Jain</p>
+            <p class="price">₹190 / ₹190</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/corn-bhakri.jpg" alt="Margherita Bhakri Pizza">
+          <div>
+            <h4>Only Corn Bhakri Pizza</h4>
+            <p>Portion: Regular / Jain</p>
+            <p class="price">₹170 / ₹170</p>
+          </div>
+        </div>
+        
+        <div class="menu-item">
+          <img src="images/panner-pizz.jpg" alt="Vegetable Bhakri Pizza">
+          <div>
+            <h4>Masala Paneer Bhakri Pizza</h4>
+            <p>Portion: Regular / Jain / WC</p>
+            <p class="price">₹220 / ₹220 / ₹190</p>
+          </div>
+        </div>
+
+
+        <div class="menu-section">
+        <h3>Bjari/jawar pizza</h3>
+        <div class="menu-item">
+          <img src="images/veg-bhakri.jpg" alt="Vegetable Bhakri Pizza">
+          <div>
+            <h4>Vegetable Bjari/jawar pizza </h4>
+            <p>Portion: Regular / Jain / WC</p>
+            <p class="price">₹190 / ₹190 / ₹160</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/margarita-bhakri.jpg" alt="Margherita Bhakri Pizza">
+          <div>
+            <h4>Margherita Bjari/jawar pizza</h4>
+            <p>Portion: Regular / Jain</p>
+            <p class="price">₹210 / ₹210</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/cheese-bhakri.jpg" alt="Vegetable Bhakri Pizza">
+          <div>
+            <h4> Only Cheese Bjari/jawar pizza</h4>
+            <p>Portion: Regular / Jain</p>
+            <p class="price">₹210 / ₹210</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/corn-bhakri.jpg" alt="Margherita Bhakri Pizza">
+          <div>
+            <h4>Only Corn Bjari/jawar pizza</h4>
+            <p>Portion: Regular / Jain</p>
+            <p class="price">₹190 / ₹190</p>
+          </div>
+        </div>
+        
+        <div class="menu-item">
+          <img src="images/panner-pizz.jpg" alt="Vegetable Bhakri Pizza">
+          <div>
+            <h4>Masala Paneer Bjari/jawar pizza</h4>
+            <p>Portion: Regular / Jain / WC</p>
+            <p class="price">₹240 / ₹240 / ₹210</p>
+          </div>
+        </div>
+    </details>
+  </div>
+
+  <!-- Vendor 4: House of Sushi -->
+  <div class="vendor">
+    <details>
+      <summary>House of Sushi <i>"Roll with us to Japan & Vietnam!"</i> <strong>Shop timing 4.30 PM - 12.30 AM</strong></summary>
+      <div class="menu-section">
+        <h3>Sushi</h3>
+        <div class="menu-item">
+          <img src="images/california-sushi.jpg" alt="California Sushi">
+          <div>
+            <h4>California Sushi</h4>
+            <p>Portion: 4PC / 8PC</p>
+            <p class="price">₹180 / ₹300</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/avocado-sushi.jpg" alt="Avocado Sushi">
+          <div>
+            <h4>Avocado Sushi</h4>
+            <p>Portion: 4PC / 8PC</p>
+            <p class="price">₹210 / ₹330</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/exotic-sushi.jpg" alt="Exotic Sushi">
+          <div>
+            <h4>Exotic Sushi</h4>
+            <p>Portion: 4PC / 8PC</p>
+            <p class="price">₹180 / ₹300</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/asparagus-sushi.jpg" alt="Asparagus Sushi">
+          <div>
+            <h4>Asparagus Sushi</h4>
+            <p>Portion: 4PC / 8PC</p>
+            <p class="price">₹210 / ₹330</p>
+          </div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <h3>Vietnamese Roll</h3>
+        <div class="menu-item">
+          <img src="images/exotic-sushi-roll.jpg" alt="Exotic Roll">
+          <div>
+            <h4>Exotic Roll</h4>
+            <p>Portion: 1 Roll</p>
+            <p class="price">₹200</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/avocado-sushi-roll.jpg" alt="Avocado Roll">
+          <div>
+            <h4>Avocado Roll</h4>
+            <p>Portion: 1 Roll</p>
+            <p class="price">₹220</p>
+          </div>
+        </div>
+  
+        <div class="menu-item">
+          <img src="images/Avocado-Jalapeno-Roll.jpg" alt="Exotic Roll">
+          <div>
+            <h4>Avocado Jalapeno Roll</h4>
+            <p>Portion: 1 Roll</p>
+            <p class="price">₹200</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="images/paneer-roll.jpg" alt="Exotic Roll">
+          <div>
+            <h4>paneer Roll</h4>
+            <p>Portion: 1 Roll</p>
+            <p class="price">₹200</p>
+          </div>
+        </div>
+    </details>
+  </div>
+
+  <!-- Vendor 5: Priya Foods -->
+  <div class="vendor">
+    <details>
+      <summary>Priya Foods <i>"Your Comfort food!"</i> <strong>Shop timing 12.00 PM - 8.00 PM</strong></summary>
+      <div class="menu-section">
+        <h3>Snacks</h3>
+        <div class="menu-item">
+          <img src="images/vada-pav.jpg" alt="Vadapav">
+          <div>
+            <h4>Vadapav (JA)</h4>
+            <p>Portion: Regular / Jain</p>
+            <p class="price">₹20 / ₹25</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/samosa-pav.jpg" alt="Samosa Pav">
+          <div>
+            <h4>Samosa Pav (JA)</h4>
+            <p>Portion: 1 pc</p>
+            <p class="price">₹25</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/idli.jpg" alt="Idli Chatni">
+          <div>
+            <h4>Idli Chatni</h4>
+            <p>Portion: 2 pieces</p>
+            <p class="price">₹30</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/medu-vada.jpg" alt="Medu Vada">
+          <div>
+            <h4>Medu Vada</h4>
+            <p>Portion: 2 pieces</p>
+            <p class="price">₹45</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/single-vada.jpg" alt="Single Vada">
+          <div>
+            <h4>Single Vada</h4>
+            <p>Portion: 1 piece</p>
+            <p class="price">₹17</p>
+          </div>
+        </div>
+      </div>
+    </details>
+  </div>
+
+<!-- Vendor 6: Cafe Jethwa Food Corner -->
+<div class="vendor">
+  <details>
+    <summary>Cafe Jethwa Food Corner <i>"Snacks with swag!"</i> <strong>Shop timing 3.30 PM - 12.00 AM</strong></summary>
+    <div class="menu-section">
+      <h3>Twisters</h3>
+      <div class="menu-item">
+        <img src="images/masala-twister.jpg" alt="Maggic Masala Twister">
+        <div>
+          <h4>Maggic Masala Twister</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/peri-twister.jpg" alt="Peri Peri Twister">
+        <div>
+          <h4>Peri Peri Twister</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/Tandoori-Twister.jpg" alt="Peri Peri Twister">
+        <div>
+          <h4>tandoori Twister</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/cheese-Twister.jpg" alt="Peri Peri Twister">
+        <div>
+          <h4>cheese Twister</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Masala Fries</h3>
+      <div class="menu-item">
+        <img src="images/chilly-fries.jpg" alt="Chilly garlic Masala Fries">
+        <div>
+          <h4>Chilly Garlic Masala Fries</h4>
+          <p>Portion: Box</p>
+          <p class="price">₹160</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/cheese-jalapeno-fries.jpg" alt="Cheese Jalapeno Fries">
+        <div>
+          <h4>Cheese Jalapeno Fries</h4>
+          <p>Portion: Box</p>
+          <p class="price">₹160</p>
+        </div>
+      </div>
+
+        <div class="menu-item">
+        <img src="images/Barbeque-Masala-Fries.jpg" alt="Cheese Jalapeno Fries">
+        <div>
+          <h4>Barbeque Masala Fries</h4>
+          <p>Portion: Box</p>
+          <p class="price">₹160</p>
+        </div>
+      </div>
+
+        <div class="menu-item">
+        <img src="images/chilly-cheese-fries.jpg" alt="Cheese Jalapeno Fries">
+        <div>
+          <h4>chilly cheese Fries</h4>
+          <p>Portion: Box</p>
+          <p class="price">₹180</p>
+        </div>
+      </div>
+
+        <div class="menu-item">
+        <img src="images/chipotle-fries.jpg" alt="Cheese Jalapeno Fries">
+        <div>
+          <h4>Chipotle Fries</h4>
+          <p>Portion: Box</p>
+          <p class="price">₹160</p>
+        </div>
+      </div>
+
+      <div class="menu-section">
+        <h3>Jain Fries</h3>
+        <div class="menu-item">
+          <img src="images/plain-fries.jpg" alt="Vadapav">
+          <div>
+            <h4>Plain Fries</h4>
+            <p class="price">₹120</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/chilly-cheese-fries.jpg" alt="Samosa Pav">
+          <div>
+            <h4>Cheese Fries</h4>
+            <p class="price">₹150</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/bbq-fries.jpg" alt="Idli Chatni">
+          <div>
+           <h4>BBQ Fries</h4>
+            <p class="price">₹150</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/mayo-fries.jpg" alt="Medu Vada">
+          <div>
+            <h4>Mayo Fries</h4>
+            <p class="price">₹150</p>
+          </div>
+        </div>
+
+      <div class="menu-section">
+        <h3>Wedges</h3>
+        <div class="menu-item">
+          <img src="images/plain-wedges.jpg" alt="Vadapav">
+          <div>
+            <h4>Plain Wedges</h4>
+            <p class="price">₹120</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/peri peri wedges.jpg" alt="Samosa Pav">
+          <div>
+            <h4>peri peri Wedges</h4>
+            <p class="price">₹140</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/bbq-wedges.jpg" alt="Idli Chatni">
+          <div>
+            <h4>BBQ Wedges</h4>
+            <p class="price">₹140</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/mayo-chilly-wedges.jpg" alt="Medu Vada">
+          <div>
+            <h4>mayo chilly wedges</h4>
+            <p class="price">₹160</p>
+          </div>
+        </div>
+
+      <div class="menu-section">
+        <h3>Burger</h3>
+        <div class="menu-item">
+          <img src="images/aloo-tikki-burger.jpg" alt="Vadapav">
+          <div>
+            <h4>aloo Tikki Burger</h4>
+            <p class="price">₹110</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/tandoori-aloo-tikki-burger.jpg" alt="Samosa Pav">
+          <div>
+            <h4>Tandoori Aloo Tikki Burger</h4>
+            <p class="price">₹140</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/paneer-burger.jpg" alt="Idli Chatni">
+          <div>
+            <h4>Vegetable Paneer Burger</h4>
+            <p class="price">₹180</p>
+          </div>
+        </div>
+        <div class="menu-item">
+          <img src="images/cheese-burger.jpg" alt="Medu Vada">
+          <div>
+            <h4>Cheese Vegetable Burger</h4>
+            <p class="price">₹150</p>
+          </div>
+        </div>
+  </details>
+</div>
+
+<!-- Vendor 7: Norchi -->
+<div class="vendor">
+  <details>
+    <summary>Norchi <i>"Bowls. Rolls. Starters. All souls."</i> <strong>Shop timing 12.00 PM - 1.00 AM</strong></summary>
+    <div class="menu-section">
+      <h3>Bowls</h3>
+      <div class="menu-item">
+        <img src="images/paneer-bowl.jpg" alt="Paneer Butter Masala & Jeera Rice">
+        <div><h4>Paneer Butter Masala & Jeera Rice (J)</h4><p>Portion: Full</p><p class="price">₹220</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/manchurian-bowl.jpeg" alt="Veg Manchurian & Fried Rice">
+        <div><h4>Veg Manchurian & Fried Rice (J)</h4><p>Portion: Full</p><p class="price">₹205</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/paneer chilli.jpg" alt="Paneer Chilli & Hakka Noodles">
+        <div><h4>Paneer Chilli & Hakka Noodles (J)</h4><p>Portion: Full</p><p class="price">₹230</p></div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Starters</h3>
+      <div class="menu-item">
+        <img src="images/paneer chilli.jpg" alt="Paneer Chilli">
+        <div><h4>Paneer Chilli (J)</h4><p>Portion: Plate</p><p class="price">₹200</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/veg-crispy.jpg" alt="Veg Crispy">
+        <div><h4>Veg Crispy (J)</h4><p>Portion: Plate</p><p class="price">₹190</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/.jpg" alt="Cheesy Corn Triangles">
+        <div><h4>Cheesy Corn Triangles</h4><p>Portion: Plate</p><p class="price">₹180</p></div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Rolls</h3>
+      <div class="menu-item">
+        <img src="images/paneer-roll.jpg" alt="Paneer Butter Masala Roll">
+        <div><h4>Paneer Butter Masala Roll (J)</h4><p>Portion: 1 pc</p><p class="price">₹200</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/veg-crispy-roll.jpg" alt="Veg Crispy Roll">
+        <div><h4>Veg Crispy Roll (J)</h4><p>Portion: 1 pc</p><p class="price">₹200</p></div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Indian Sabzi</h3>
+      <div class="menu-item">
+        <img src="images/.jpg" alt="Veg Kolhapuri">
+        <div><h4>Veg Kolhapuri (J)</h4><p>Portion: Full</p><p class="price">₹200</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/paneer-makhani.jpg" alt="Paneer Makhani">
+        <div><h4>Paneer Makhani (J)</h4><p>Portion: Full</p><p class="price">₹220</p></div>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <h3>Indian Bread</h3>
+      <div class="menu-item">
+        <img src="images/rumali-roti.jpg" alt="Rumali Roti">
+        <div><h4>Plain Rumali Roti</h4><p>Portion: 1 pc</p><p class="price">₹80</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/rumali-roti-butter.jpg" alt="Butter Rumali Roti">
+        <div><h4>Butter Rumali Roti</h4><p>Portion: 1 pc</p><p class="price">₹90</p></div>
+      </div>
+      <div class="menu-item">
+        <img src="images/paratha.jpg" alt="Plain/Butter Paratha">
+        <div><h4>Plain/Butter Paratha</h4><p>Portion: 1 pc</p><p class="price">₹60 / ₹70</p></div>
+      </div>
+    </div>
+  </details>
+</div>
+
+<!-- Vendor 8: Green Chatni Food -->
+<div class="vendor">
+  <details>
+    <summary>Green Chatni Food <i>"Wholesome Indian flavors, served with love and green goodness!"</i> <strong>Shop timing 11.00 AM - 3.00 PM & 7.00 PM - 11.00 PM</strong></summary>
+    <div class="menu-section">
+      <h3>Combo 3CP</h3>
+      <div class="menu-item">
+        <img src="images/dal-makhani.jpg" alt="Dal Makhani with Jeera Rice">
+        <div>
+          <h4>Dal Makhani with Jeera Rice</h4>
+          <p>Portion: Combo</p>
+          <p class="price">₹180</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/panner-kulcha.jpg" alt="Paneer Makhanvala with 2 Kulcha">
+        <div>
+          <h4>Paneer Makhanvala with 2 Kulcha</h4>
+          <p>Portion: Combo</p>
+          <p class="price">₹240</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h3>5CP Thali</h3>
+      <div class="menu-item">
+        <img src="images/punjab-thali.jpg" alt="Punjabi Thali">
+        <div>
+          <h4>Punjabi Thali</h4>
+          <p>Portion: Full Thali</p>
+          <p class="price">₹300</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/jain-thali.jpg" alt="Jain Thali">
+        <div>
+          <h4>Jain Thali</h4>
+          <p>Portion: Full Thali</p>
+          <p class="price">₹300</p>
+        </div>
+      </div>
+    </div>
+  </details>
+</div>
+
+<!-- Vendor 9: Sai Krupa Amritsar Kulcha -->
+<div class="vendor">
+  <details>
+    <summary>Sai Krupa Amritsar Kulcha <i>“Kulchas with soul, straight from Amritsar!”</i> <strong>Shop timing 12.00 PM - 10.30 PM</strong></summary>
+    <div class="menu-section">
+      <h3>Kulcha</h3>
+      <div class="menu-item">
+        <img src="images/aloo-kulcha.jpg" alt="Aloo Kulcha">
+        <div>
+          <h4>Aloo Kulcha</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹60</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/paneer-kulcha.jpg" alt="Paneer Kulcha">
+        <div>
+          <h4>Paneer Kulcha</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹80</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h3>Cheese Kulcha</h3>
+      <div class="menu-item">
+        <img src="images/cheese-kulcha.jpg" alt="Paneer Cheese Kulcha">
+        <div>
+          <h4>Paneer Cheese Kulcha</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹100</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/aloo-cheese-kulcha.jpg" alt="Aloo Cheese Kulcha">
+        <div>
+          <h4>Aloo Cheese Kulcha</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹100</p>
+        </div>
+      </div>
+    </div>
+  </details>
+</div>
+
+<!-- Vendor 10: Seven Spicies Fast Food -->
+<div class="vendor">
+  <details>
+    <summary>Seven Spicies Fast Food <i>“Spice up your cravings — the sizzling way!”</i> <strong>Shop timing 3.40 PM - 12.00 AM</strong></summary>
+    <div class="menu-section">
+      <h3>Paneer Tikka</h3>
+      <div class="menu-item">
+        <img src="images/tandoori-paneer-tikka.jpg" alt="Tandoori Paneer Tikka">
+        <div>
+          <h4>Tandoori Paneer Tikka</h4>
+          <p>Portion: Half / Full</p>
+          <p class="price">₹170 / ₹310</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/peri-peri-paneer-tikka.jpg" alt="Peri-peri Paneer Tikka">
+        <div>
+          <h4>Peri-peri Paneer Tikka</h4>
+          <p>Portion: Half / Full</p>
+          <p class="price">₹190 / ₹350</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h3>Paneer Roll</h3>
+      <div class="menu-item">
+        <img src="images/Peri-paneer-roll.jpg" alt="Peri-peri Paneer Roll">
+        <div>
+          <h4>Peri-peri Paneer Roll</h4>
+          <p>Portion: Half / Full</p>
+          <p class="price">₹220 / ₹240</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/Peri-paneer-roll.jpg" alt="Italian Paneer Roll">
+        <div>
+          <h4>Italian Paneer Roll</h4>
+          <p>Portion: Half / Full</p>
+          <p class="price">₹240 / ₹260</p>
+        </div>
+      </div>
+    </div>
+  </details>
+</div>
+
+<!-- Vendor 11: Hungrill -->
+<div class="vendor">
+  <details>
+    <summary>Hungrill <i>"Where every bite and sip is a celebration of taste, tradition, and twist!"</i> <strong>Shop timing 2.00 PM - 12.00 AM</strong></summary>
+    <div class="menu-section">
+      <h3>Toast / Grill Sandwich</h3>
+      <div class="menu-item">
+        <img src="images/toast-sandwhich.jpg" alt="Veg Toast Sandwich">
+        <div>
+          <h4>Veg Toast Sandwich</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹70</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/cheese toast.jpg" alt="Veg Cheese Toast">
+        <div>
+          <h4>Veg Cheese Toast</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h3>Panini Grill</h3>
+      <div class="menu-item">
+        <img src="images/Peri-Grill-Panini.jpg" alt="Peri Peri Grill Panini">
+        <div>
+          <h4>Peri Peri Grill Panini</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹140</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/Tandoori-Paneer-Grill.jpg" alt="Tandoori Paneer Grill Panini">
+        <div>
+          <h4>Tandoori Paneer Grill Panini</h4>
+          <p>Portion: 1 pc</p>
+          <p class="price">₹150</p>
+        </div>
+      </div>
+    </div>
+  </details>
+</div>
+
+<!-- Vendor 12: Shri Veggie Adda -->
+<div class="vendor">
+  <details>
+    <summary>Shri Veggie Adda <i>“We Serve Healthy, Fresh And Quality Food.”</i> <strong>Shop timing 1.00 PM - 12.00 AM</strong></summary>
+    <div class="menu-section">
+      <h3>Paneer in Tandoor</h3>
+      <div class="menu-item">
+        <img src="images/tandoori-paneer-tikka.jpg" alt="Paneer Tikka">
+        <div>
+          <h4>Paneer Tikka</h4>
+          <p>Portion: 1 plate</p>
+          <p class="price">₹120</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/malai-paneer.jpg" alt="Malai Paneer">
+        <div>
+          <h4>Malai Paneer</h4>
+          <p>Portion: 1 plate</p>
+          <p class="price">₹130</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h3>Healthy & Tasty Wraps</h3>
+      <div class="menu-item">
+        <img src="images/veg-wrap.jpg" alt="Veg Wrap">
+        <div>
+          <h4>Veg Wrap</h4>
+          <p>Portion: 1 wrap</p>
+          <p class="price">₹60</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/paneer-tikka-wrap.jpg" alt="Paneer Tikka Wrap">
+        <div>
+          <h4>Paneer Tikka Wrap</h4>
+          <p>Portion: 1 wrap</p>
+          <p class="price">₹130</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h3>Jain Healthy Wraps</h3>
+      <div class="menu-item">
+        <img src="images/veg-jain-wrap.jpg" alt="Veg Jain Wrap">
+        <div>
+          <h4>Veg Jain Wrap</h4>
+          <p>Portion: 1 wrap</p>
+          <p class="price">₹90</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <img src="images/paneer-noodles-wrap.jpg" alt="Jain Paneer Noodles Wrap">
+        <div>
+          <h4>Jain Paneer Noodles Wrap</h4>
+          <p>Portion: 1 wrap</p>
+          <p class="price">₹150</p>
+        </div>
+      </div>
+    </div>
+  </details>
+</div>
+
+
+
+
+  <p><strong>Thank you for dining with us! Good food, good mood — only at MyEzz.</strong></p>
+
+</body>
+</html>
